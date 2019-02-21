@@ -17,3 +17,9 @@ ScrollPane#viewScroller{
   -fx-max-height: 600px;
   -fx-pannable: true;
 }
+
+Slider#densitySlider {
+  -fx-major-tick-unit: 1;
+  -fx-minor-tick-count: 0;
+  -fx-snap-to-ticks: true;
+}
